@@ -29,3 +29,14 @@ const db = new sqlite3.Database("./test.db", sqlite3.OPEN_READWRITE, (err) =>{
 //})
 
 //Update data
+//sql = "UPDATE users SET first_name = ? WHERE id = ?";
+//db. run( sql, ["Jake", 1], (err) => {
+//    if (err) return console.error(err.message);
+//})
+
+//Delete data
+//sql = "DELETE FROM users WHERE id = ?"
+//db.run( sql, [1], (err)=>
+//{
+//    if (err) return console.error(err.message)
+//});
